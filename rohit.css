@@ -145,10 +145,23 @@ a.active,a:hover{
 .btn:hover {
   background-color: RoyalBlue;
 }
-
+@media(max-width: 1100px){
+    .home{
+        height:80vh;
+    }
+    .text{
+        margin-left: 200px;
+    }
+    .btnn{
+        margin-left: 210px;
+    }
+}
 @media (max-width:810px)
 {
-	.first{
+	.home{
+        height:70vh;
+    }
+    .first{
 		font-size: 20px;
 	    font-style: oblique;
 	    font-weight: bold;
@@ -232,8 +245,12 @@ a.active,a:hover{
     vertical-align: bottom;
 }
 @media(max-width:1100px)
-{
-	.head1 img {
+{   
+    .about{
+        height:70vh;
+    }
+	
+    .head1 img {
     width: 300px;
     height: 300px;
     float: right;
@@ -259,7 +276,10 @@ a.active,a:hover{
 }
 @media(max-width:960px)
 {
-	.head1 img {
+	.about{
+        height:60vh;
+    }
+    .head1 img {
     width: 200px;
     height: 200px;
     float: right;
@@ -284,7 +304,10 @@ a.active,a:hover{
 }
 @media(max-width:864px)
 {
-	.head1 img {
+	.about{
+        height:50vh;
+    }
+    .head1 img {
     width: 150px;
     height: 150px;
     float: right;
