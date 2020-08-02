@@ -114,7 +114,7 @@ a.active,a:hover{
 	display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img.jpg);
+    background-image: url(img/img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
